@@ -1,5 +1,6 @@
 package com.example.youtubesubscribers;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -34,6 +35,8 @@ public class More extends Fragment {
             @Override
             public void onClick(View view) {
 
+                Intent intent= new Intent(getContext(), NextActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -42,6 +45,8 @@ public class More extends Fragment {
             @Override
             public void onClick(View view) {
 
+                Intent intent= new Intent(getContext(), NextActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -50,6 +55,8 @@ public class More extends Fragment {
             @Override
             public void onClick(View view) {
 
+                Intent intent= new Intent(getContext(), NextActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -58,6 +65,8 @@ public class More extends Fragment {
             @Override
             public void onClick(View view) {
 
+                Intent intent= new Intent(getContext(), NextActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -66,6 +75,8 @@ public class More extends Fragment {
             @Override
             public void onClick(View view) {
 
+                Intent intent= new Intent(getContext(), NextActivity.class);
+                startActivity(intent);
 
             }
         });
