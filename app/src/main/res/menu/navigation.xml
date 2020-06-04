@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/campaign"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Campaign"
+        />
+
+    <item
+        android:id="@+id/subscribe"
+        android:icon="@drawable/ic_subscriptions_black_24dp"
+        android:title="Subscribe"
+        />
+
+    <item
+        android:id="@+id/earn"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Earn Coin"
+        />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_dehaze_black_24dp"
+        android:title="More"/>
+
+</menu>
